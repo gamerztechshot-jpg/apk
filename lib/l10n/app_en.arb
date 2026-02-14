@@ -1,0 +1,1051 @@
+{
+  "@@locale": "en",
+  "appTitle": "Karmasu",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "welcomeBack": "Welcome back",
+  "@welcomeBack": {
+    "description": "Welcome message for returning users"
+  },
+  "createAccount": "Create your account",
+  "@createAccount": {
+    "description": "Message for new user registration"
+  },
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "Label for full name input field"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Label for email input field"
+  },
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Label for phone number input field"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Label for password input field"
+  },
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Label for confirm password input field"
+  },
+  "signIn": "Sign In",
+  "@signIn": {
+    "description": "Sign in button text"
+  },
+  "signUp": "Sign Up",
+  "@signUp": {
+    "description": "Sign up button text"
+  },
+  "alreadyHaveAccount": "Already have an account? ",
+  "@alreadyHaveAccount": {
+    "description": "Text for existing users"
+  },
+  "dontHaveAccount": "Don't have an account? ",
+  "@dontHaveAccount": {
+    "description": "Text for new users"
+  },
+  "nameRequired": "Name is required",
+  "@nameRequired": {
+    "description": "Validation message for name field"
+  },
+  "nameMinLength": "Name must be at least 2 characters",
+  "@nameMinLength": {
+    "description": "Validation message for name minimum length"
+  },
+  "emailRequired": "Email is required",
+  "@emailRequired": {
+    "description": "Validation message for email field"
+  },
+  "emailInvalid": "Please enter a valid email",
+  "@emailInvalid": {
+    "description": "Validation message for invalid email"
+  },
+  "phoneRequired": "Phone number is required",
+  "@phoneRequired": {
+    "description": "Validation message for phone field"
+  },
+  "phoneInvalid": "Please enter a valid phone number",
+  "@phoneInvalid": {
+    "description": "Validation message for invalid phone"
+  },
+  "passwordRequired": "Password is required",
+  "@passwordRequired": {
+    "description": "Validation message for password field"
+  },
+  "passwordMinLength": "Password must be at least 6 characters",
+  "@passwordMinLength": {
+    "description": "Validation message for password minimum length"
+  },
+  "confirmPasswordRequired": "Please confirm your password",
+  "@confirmPasswordRequired": {
+    "description": "Validation message for confirm password field"
+  },
+  "passwordsDoNotMatch": "Passwords do not match",
+  "@passwordsDoNotMatch": {
+    "description": "Validation message for password mismatch"
+  },
+  "accountCreatedSuccess": "Account created successfully! Welcome to Karmasu.",
+  "@accountCreatedSuccess": {
+    "description": "Success message for account creation"
+  },
+  "signedInSuccess": "Signed in successfully!",
+  "@signedInSuccess": {
+    "description": "Success message for sign in"
+  },
+  "errorSaving": "Error saving",
+  "writeRamRamHere": "Write Ram Ram here...",
+  "writingSavedFor": "Writing saved for {deityName}",
+  "@writingSavedFor": {
+    "placeholders": {
+      "deityName": {
+        "type": "String",
+        "example": "Ram"
+      }
+    }
+  },
+  "error": "Error: {errorMessage}",
+  "@error": {
+    "description": "Generic error message",
+    "placeholders": {
+      "errorMessage": {
+        "type": "String"
+      }
+    }
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Home tab label"
+  },
+  "explore": "Explore",
+  "@explore": {
+    "description": "Explore tab label"
+  },
+  "quiz": "Quiz",
+  "@quiz": {
+    "description": "Quiz tab label"
+  },
+  "sadhna": "Sadhna",
+  "@sadhna": {
+    "description": "Sadhna tab label"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile tab label"
+  },
+  "poojaSadhna": "Pooja Sadhna",
+  "@poojaSadhna": {
+    "description": "Pooja Sadhna feature title"
+  },
+  "ramnamLekhan": "Naam japa",
+  "@ramnamLekhan": {
+    "description": "Naam japa feature title"
+  },
+  "astrologer": "Astrologer",
+  "@astrologer": {
+    "description": "Astrologer feature title"
+  },
+  "moreFeatures": "More Features",
+  "@moreFeatures": {
+    "description": "More features title"
+  },
+  "exploreScreen": "Spiritual Services",
+  "@exploreScreen": {
+    "description": "Explore screen placeholder text"
+  },
+  "quizZone": "Quiz Zone - Coming Soon!",
+  "@quizZone": {
+    "description": "Quiz screen placeholder text"
+  },
+  "sadhnaTracker": "Sadhna Tracker - Coming Soon!",
+  "@sadhnaTracker": {
+    "description": "Sadhna screen placeholder text"
+  },
+  "myCourses": "My Courses",
+  "@myCourses": {
+    "description": "My courses option in profile"
+  },
+  "myBookings": "My Bookings",
+  "@myBookings": {
+    "description": "My bookings option in profile"
+  },
+  "jaapHistory": "Jaap History",
+  "@jaapHistory": {
+    "description": "Jaap history option in profile"
+  },
+  "karmicScore": "Karmic Score",
+  "@karmicScore": {
+    "description": "Karmic score option in profile"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings option in profile"
+  },
+  "support": "Support",
+  "@support": {
+    "description": "Support option in profile"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language option in profile"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language option"
+  },
+  "hindi": "हिंदी",
+  "@hindi": {
+    "description": "Hindi language option"
+  },
+  "phoneNotProvided": "Phone: Not provided",
+  "@phoneNotProvided": {
+    "description": "Default text when phone is not provided"
+  },
+  "dailyPanchang": "Daily Panchang",
+  "@dailyPanchang": {
+    "description": "Daily Panchang section title"
+  },
+  "todayDate": "Today's Date",
+  "@todayDate": {
+    "description": "Today's date label"
+  },
+  "tithi": "Tithi",
+  "@tithi": {
+    "description": "Tithi label"
+  },
+  "nakshatra": "Nakshatra",
+  "@nakshatra": {
+    "description": "Nakshatra label"
+  },
+  "yoga": "Yoga",
+  "@yoga": {
+    "description": "Yoga label"
+  },
+  "karana": "Karana",
+  "@karana": {
+    "description": "Karana label"
+  },
+  "sunrise": "Sunrise",
+  "@sunrise": {
+    "description": "Sunrise time label"
+  },
+  "sunset": "Sunset",
+  "@sunset": {
+    "description": "Sunset time label"
+  },
+  "upcomingFestival": "Upcoming Festival",
+  "@upcomingFestival": {
+    "description": "Upcoming festival banner title"
+  },
+  "featuredHighlights": "Featured Highlights",
+  "@featuredHighlights": {
+    "description": "Featured highlights section title"
+  },
+  "courses": "Courses",
+  "@courses": {
+    "description": "Courses feature title"
+  },
+  "bookPuja": "Book Puja",
+  "@bookPuja": {
+    "description": "Book Puja feature title"
+  },
+  "askGuruji": "Ask Guruji",
+  "@askGuruji": {
+    "description": "Ask Guruji feature title"
+  },
+  "dharmaStore": "Dharma Store",
+  "@dharmaStore": {
+    "description": "Dharma Store feature title"
+  },
+  "viewAll": "View All",
+  "@viewAll": {
+    "description": "View all button text"
+  },
+  "adminPanel": "Admin Panel",
+  "@adminPanel": {
+    "description": "Admin panel title"
+  },
+  "manageDailyPanchang": "Manage Daily Panchang",
+  "@manageDailyPanchang": {
+    "description": "Manage daily panchang option"
+  },
+  "manageCourses": "Manage Courses",
+  "@manageCourses": {
+    "description": "Manage courses option"
+  },
+  "managePoojaBookings": "Manage Pooja Bookings",
+  "@managePoojaBookings": {
+    "description": "Manage pooja bookings option"
+  },
+  "manageEBookings": "Manage E-Bookings",
+  "@manageEBookings": {
+    "description": "Manage e-bookings option"
+  },
+  "managePandits": "Manage Pandits",
+  "@managePandits": {
+    "description": "Manage pandits option"
+  },
+  "manageAstrologers": "Manage Astrologers",
+  "@manageAstrologers": {
+    "description": "Manage astrologers option"
+  },
+  "addNew": "Add New",
+  "@addNew": {
+    "description": "Add new button text"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button text"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "durgaJi": "Durga Ji",
+  "@durgaJi": {
+    "description": "Durga Ji deity name"
+  },
+  "ganeshaJi": "Ganesha Ji",
+  "@ganeshaJi": {
+    "description": "Ganesha Ji deity name"
+  },
+  "hanumanJi": "Hanuman Ji",
+  "@hanumanJi": {
+    "description": "Hanuman Ji deity name"
+  },
+  "krishnaJi": "Krishna Ji",
+  "@krishnaJi": {
+    "description": "Krishna Ji deity name"
+  },
+  "lakshmiJi": "Lakshmi Ji",
+  "@lakshmiJi": {
+    "description": "Lakshmi Ji deity name"
+  },
+  "narasimhaJi": "Narasimha Ji",
+  "@narasimhaJi": {
+    "description": "Narasimha Ji deity name"
+  },
+  "parvatiJi": "Parvati Ji",
+  "@parvatiJi": {
+    "description": "Parvati Ji deity name"
+  },
+  "radhaJi": "Radha Ji",
+  "@radhaJi": {
+    "description": "Radha Ji deity name"
+  },
+  "ramJi": "Ram Ji",
+  "@ramJi": {
+    "description": "Ram Ji deity name"
+  },
+  "saraswatiJi": "Saraswati Ji",
+  "@saraswatiJi": {
+    "description": "Saraswati Ji deity name"
+  },
+  "shaniJi": "Shani Ji",
+  "@shaniJi": {
+    "description": "Shani Ji deity name"
+  },
+  "shivJi": "Shiv Ji",
+  "@shivJi": {
+    "description": "Shiv Ji deity name"
+  },
+  "sitaJi": "Sita Ji",
+  "@sitaJi": {
+    "description": "Sita Ji deity name"
+  },
+  "vishnuJi": "Vishnu Ji",
+  "@vishnuJi": {
+    "description": "Vishnu Ji deity name"
+  },
+  "searchDeities": "Search Deities",
+  "@searchDeities": {
+    "description": "Search placeholder for deities"
+  },
+  "favorites": "Favorites",
+  "@favorites": {
+    "description": "Favorites section title"
+  },
+  "dailyTargets": "Daily Targets",
+  "@dailyTargets": {
+    "description": "Daily targets section title"
+  },
+  "setTarget": "Set Target",
+  "@setTarget": {
+    "description": "Set target button text"
+  },
+  "currentStreak": "Current Streak",
+  "@currentStreak": {
+    "description": "Current streak label"
+  },
+  "longestStreak": "Longest Streak",
+  "@longestStreak": {
+    "description": "Longest streak label"
+  },
+  "todayProgress": "Today's Progress",
+  "@todayProgress": {
+    "description": "Today's progress label"
+  },
+  "targetMet": "Target Met!",
+  "@targetMet": {
+    "description": "Target met message"
+  },
+  "targetNotMet": "Target Not Met",
+  "@targetNotMet": {
+    "description": "Target not met message"
+  },
+  "leaderboard": "Leaderboard",
+  "@leaderboard": {
+    "description": "Leaderboard section title"
+  },
+  "dailyRanking": "Daily Ranking",
+  "@dailyRanking": {
+    "description": "Daily ranking title"
+  },
+  "yourRank": "Your Rank",
+  "@yourRank": {
+    "description": "Your rank label"
+  },
+  "totalJapa": "Total Japa",
+  "@totalJapa": {
+    "description": "Total japa count label"
+  },
+  "participants": "Participants",
+  "@participants": {
+    "description": "Participants count label"
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh button text"
+  },
+  "japaCount": "Japa Count",
+  "@japaCount": {
+    "description": "Japa count label"
+  },
+  "days": "days",
+  "@days": {
+    "description": "Days unit"
+  },
+  "streak": "Streak",
+  "@streak": {
+    "description": "Streak label"
+  },
+  "ramRamLekhan": "Naam japa",
+  "@ramRamLekhan": {
+    "description": "Naam japa title in English"
+  },
+  "selectPreferredDeity": "Select your preferred deity",
+  "@selectPreferredDeity": {
+    "description": "Subtitle for deity selection in English"
+  },
+  "searchDeitiesPlaceholder": "Search deities...",
+  "@searchDeitiesPlaceholder": {
+    "description": "Search placeholder text in English"
+  },
+  "noDeitiesFound": "No deities found",
+  "@noDeitiesFound": {
+    "description": "No search results message in English"
+  },
+  "tryChangingSearchTerms": "Try changing your search terms",
+  "@tryChangingSearchTerms": {
+    "description": "Search suggestion message in English"
+  },
+  "words": "Words",
+  "@words": {
+    "description": "Words label in English"
+  },
+  "time": "Time",
+  "@time": {
+    "description": "Time label in English"
+  },
+  "days": "Days",
+  "@days": {
+    "description": "Days label in English"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button text in English"
+  },
+  "clear": "Clear",
+  "@clear": {
+    "description": "Clear button text in English"
+  },
+  "sadhnaTitle": "Sadhna",
+  "@sadhnaTitle": {
+    "description": "Sadhna card title"
+  },
+  "sadhnaSubtitle": "Daily naam japa for peace",
+  "@sadhnaSubtitle": {
+    "description": "Sadhna card subtitle"
+  },
+  "pujaPaathTitle": "Puja/Paath",
+  "@pujaPaathTitle": {
+    "description": "Puja/Paath card title"
+  },
+  "pujaPaathSubtitle": "Your puja Your paath our responsibility",
+  "@pujaPaathSubtitle": {
+    "description": "Puja/Paath card subtitle"
+  },
+  "vedalayTitle": "Vedalay",
+  "@vedalayTitle": {
+    "description": "Vedalay card title"
+  },
+  "vedalaySubtitle": "Your puja Your paath our responsibility",
+  "@vedalaySubtitle": {
+    "description": "Vedalay card subtitle"
+  },
+  "panchangTitle": "Panchang",
+  "@panchangTitle": {
+    "description": "Panchang card title"
+  },
+  "panchangSubtitle": "Daily naam japa for peace",
+  "@panchangSubtitle": {
+    "description": "Panchang card subtitle"
+  },
+  "samagriTitle": "Samagri",
+  "@samagriTitle": {
+    "description": "Samagri card title"
+  },
+  "samagriSubtitle": "Daily naam japa for peace",
+  "@samagriSubtitle": {
+    "description": "Samagri card subtitle"
+  },
+  "startYourDayWith": "start your day with",
+  "@startYourDayWith": {
+    "description": "Banner start text"
+  },
+  "naamJapa": "Naam japa",
+  "@naamJapa": {
+    "description": "Banner main text"
+  },
+  "bannerSubtitle": "Your puja Your paath our responsibility",
+  "@bannerSubtitle": {
+    "description": "Banner subtitle"
+  },
+  "searchPlaceholder": "Search...",
+  "@searchPlaceholder": {
+    "description": "Search bar placeholder"
+  },
+  "radheRadhe": "Radhe Radhe",
+  "@radheRadhe": {
+    "description": "Greeting subtitle"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About tab title"
+  },
+  "benefits": "Benefits",
+  "@benefits": {
+    "description": "Benefits tab title"
+  },
+  "process": "Process",
+  "@process": {
+    "description": "Process tab title"
+  },
+  "temple": "Temple",
+  "@temple": {
+    "description": "Temple tab title"
+  },
+  "packages": "Packages",
+  "@packages": {
+    "description": "Packages tab title"
+  },
+  "reviews": "Reviews",
+  "@reviews": {
+    "description": "Reviews tab title"
+  },
+  "aboutPuja": "About Puja",
+  "@aboutPuja": {
+    "description": "About puja section title"
+  },
+  "availablePackages": "Available Packages",
+  "@availablePackages": {
+    "description": "Available packages section title"
+  },
+  "website": "Website",
+  "@website": {
+    "description": "Website section title"
+  },
+  "selectedPackage": "Selected Package",
+  "@selectedPackage": {
+    "description": "Selected package label"
+  },
+  "bookNow": "Book Now",
+  "@bookNow": {
+    "description": "Book now button text"
+  },
+  "devotees": "Devotees",
+  "@devotees": {
+    "description": "Devotees label"
+  },
+  "tillNowDevoteesParticipated": "Till now {count} Devotees have taken their vow through KARMASU.",
+  "@tillNowDevoteesParticipated": {
+    "description": "Devotee participation message",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingCloses": "Booking closes: {time}",
+  "@bookingCloses": {
+    "description": "Booking closes message",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "startingFrom": "Starting from",
+  "@startingFrom": {
+    "description": "Starting from price label"
+  },
+  "dakshina": "Dakshina",
+  "@dakshina": {
+    "description": "Dakshina (Amount) label"
+  },
+  "amount": "Amount",
+  "@amount": {
+    "description": "Amount label"
+  },
+  "sankalpNow": "Sankalp Now",
+  "@sankalpNow": {
+    "description": "Sankalp Now (Book Now) button text"
+  },
+  "mySankalp": "My Sankalp",
+  "@mySankalp": {
+    "description": "My Sankalp (My Bookings) label"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name field label"
+  },
+  "bio": "Bio",
+  "@bio": {
+    "description": "Bio field label"
+  },
+  "location": "Location",
+  "@location": {
+    "description": "Location field label"
+  },
+  "enterName": "Enter your name",
+  "@enterName": {
+    "description": "Name field placeholder"
+  },
+  "enterEmail": "Enter your email",
+  "@enterEmail": {
+    "description": "Email field placeholder"
+  },
+  "enterPhone": "Enter your phone number",
+  "@enterPhone": {
+    "description": "Phone field placeholder"
+  },
+  "enterBio": "Tell us about yourself...",
+  "@enterBio": {
+    "description": "Bio field placeholder"
+  },
+  "enterLocation": "Your location...",
+  "@enterLocation": {
+    "description": "Location field placeholder"
+  },
+  "notProvided": "Not provided",
+  "@notProvided": {
+    "description": "Default text when field is empty"
+  },
+  "profileInformation": "Profile Information",
+  "@profileInformation": {
+    "description": "Profile information section title"
+  },
+  "learningActivities": "Learning & Activities",
+  "@learningActivities": {
+    "description": "Learning and activities section title"
+  },
+  "spiritualJourney": "Spiritual Journey",
+  "@spiritualJourney": {
+    "description": "Spiritual journey section title"
+  },
+  "selectAstrologer": "Select Astrologer",
+  "@selectAstrologer": {
+    "description": "Select astrologer section title"
+  },
+  "ourKundliReports": "Our Kundli Reports",
+  "@ourKundliReports": {
+    "description": "Our kundli reports section title"
+  },
+  "loadingAstrologers": "Loading astrologers...",
+  "@loadingAstrologers": {
+    "description": "Loading astrologers message"
+  },
+  "viewAllAstrologers": "View All Astrologers",
+  "@viewAllAstrologers": {
+    "description": "View all astrologers button text"
+  },
+  "yourAstrologers": "Your Astrologers",
+  "@yourAstrologers": {
+    "description": "Your astrologers section title"
+  },
+  "viewYourAstrologers": "View Your Astrologers",
+  "@viewYourAstrologers": {
+    "description": "View your astrologers button text"
+  },
+  "viewYourBookedAstrologers": "View your booked astrologers and contact them directly",
+  "@viewYourBookedAstrologers": {
+    "description": "View your booked astrologers description"
+  },
+  "noAstrologersAvailable": "No astrologers available",
+  "@noAstrologersAvailable": {
+    "description": "No astrologers available message"
+  },
+  "book": "Book",
+  "@book": {
+    "description": "Book button text"
+  },
+  "aboutAstrologer": "About {astrologerName}",
+  "@aboutAstrologer": {
+    "description": "About astrologer section title",
+    "placeholders": {
+      "astrologerName": {
+        "type": "String"
+      }
+    }
+  },
+  "bookASession": "Book a Session",
+  "@bookASession": {
+    "description": "Book a session section title"
+  },
+  "chooseBookingType": "Choose Booking Type",
+  "@chooseBookingType": {
+    "description": "Choose booking type section title"
+  },
+  "perMinute": "Per Minute",
+  "@perMinute": {
+    "description": "Per minute booking type"
+  },
+  "perMonth": "Per Month",
+  "@perMonth": {
+    "description": "Per month booking type"
+  },
+  "bookPerMinute": "Book Per Minute",
+  "@bookPerMinute": {
+    "description": "Book per minute button text"
+  },
+  "bookPerMonth": "Book Per Month",
+  "@bookPerMonth": {
+    "description": "Book per month button text"
+  },
+  "bookingOptionsNotAvailable": "Booking options are not available at the moment",
+  "@bookingOptionsNotAvailable": {
+    "description": "Booking options not available message"
+  },
+  "bookPerMinuteSession": "Book Per Minute Session",
+  "@bookPerMinuteSession": {
+    "description": "Book per minute session dialog title"
+  },
+  "enterNumberOfMinutes": "Enter number of minutes for your consultation:",
+  "@enterNumberOfMinutes": {
+    "description": "Enter number of minutes instruction"
+  },
+  "numberOfMinutes": "Number of Minutes",
+  "@numberOfMinutes": {
+    "description": "Number of minutes field label"
+  },
+  "minutesExample": "e.g., 15, 30, 60",
+  "@minutesExample": {
+    "description": "Minutes example placeholder"
+  },
+  "communicationMode": "Communication Mode:",
+  "@communicationMode": {
+    "description": "Communication mode label"
+  },
+  "chat": "Chat",
+  "@chat": {
+    "description": "Chat communication mode"
+  },
+  "call": "Call",
+  "@call": {
+    "description": "Call communication mode"
+  },
+  "totalAmount": "Total Amount:",
+  "@totalAmount": {
+    "description": "Total amount label"
+  },
+  "payNow": "Pay Now",
+  "@payNow": {
+    "description": "Pay now button text"
+  },
+  "noAstrologersOrKundliReportsAvailable": "No astrologers or kundli reports available",
+  "@noAstrologersOrKundliReportsAvailable": {
+    "description": "No astrologers or kundli reports available message"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button text"
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh button text"
+  },
+  "allAstrologers": "All Astrologers",
+  "@allAstrologers": {
+    "description": "All astrologers screen title"
+  },
+  "searchAstrologers": "Search astrologers...",
+  "@searchAstrologers": {
+    "description": "Search astrologers placeholder"
+  },
+  "noAstrologersFound": "No astrologers found",
+  "@noAstrologersFound": {
+    "description": "No astrologers found message"
+  },
+  "noAstrologersFoundFor": "No astrologers found for \"{searchTerm}\"",
+  "@noAstrologersFoundFor": {
+    "description": "No astrologers found for search term",
+    "placeholders": {
+      "searchTerm": {
+        "type": "String"
+      }
+    }
+  },
+  "clearSearch": "Clear Search",
+  "@clearSearch": {
+    "description": "Clear search button text"
+  },
+  "downloading": "Downloading {title}...",
+  "@downloading": {
+    "description": "Downloading message",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "pleaseEnterNumberOfMinutes": "Please enter number of minutes",
+  "@pleaseEnterNumberOfMinutes": {
+    "description": "Please enter number of minutes validation message"
+  },
+  "minutesMustBePositive": "Minutes must be a positive number",
+  "@minutesMustBePositive": {
+    "description": "Minutes must be positive validation message"
+  },
+  "calculatedAmountIsZero": "Calculated amount is zero. Cannot proceed.",
+  "@calculatedAmountIsZero": {
+    "description": "Calculated amount is zero validation message"
+  },
+  "pleaseLoginToContinue": "Please login to continue",
+  "@pleaseLoginToContinue": {
+    "description": "Please login to continue message"
+  },
+  "monthlyChargeNotAvailable": "Monthly charge is not available. Cannot proceed.",
+  "@monthlyChargeNotAvailable": {
+    "description": "Monthly charge not available message"
+  },
+  "errorProcessingPayment": "Error processing payment: {error}",
+  "@errorProcessingPayment": {
+    "description": "Error processing payment message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentSuccessful": "Payment Successful! Your booking is confirmed and saved.",
+  "@paymentSuccessful": {
+    "description": "Payment successful message"
+  },
+  "paymentSuccessfulButFailedToSave": "Payment successful but failed to save booking. Please contact support.",
+  "@paymentSuccessfulButFailedToSave": {
+    "description": "Payment successful but failed to save booking message"
+  },
+  "paymentSuccessfulButMissingData": "Payment successful but missing required data. Please contact support.",
+  "@paymentSuccessfulButMissingData": {
+    "description": "Payment successful but missing data message"
+  },
+  "paymentSuccessfulButErrorOccurred": "Payment successful but error occurred. Please contact support.",
+  "@paymentSuccessfulButErrorOccurred": {
+    "description": "Payment successful but error occurred message"
+  },
+  "paymentFailed": "Payment Failed: {error}",
+  "@paymentFailed": {
+    "description": "Payment failed message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "redirectingToExternalWallet": "Redirecting to {walletName}",
+  "@redirectingToExternalWallet": {
+    "description": "Redirecting to external wallet message",
+    "placeholders": {
+      "walletName": {
+        "type": "String"
+      }
+    }
+  },
+  "minutes": "minutes",
+  "@minutes": {
+    "description": "Minutes unit"
+  },
+  "month": "month",
+  "@month": {
+    "description": "Month unit"
+  },
+  "perMin": "/min",
+  "@perMin": {
+    "description": "Per minute unit"
+  },
+  "perMonth": "/month",
+  "@perMonth": {
+    "description": "Per month unit"
+  },
+  "pandit": "Pandit",
+  "@pandit": {
+    "description": "Pandit section title"
+  },
+  "spiritualServices": "Spiritual Services",
+  "@spiritualServices": {
+    "description": "Spiritual services section title"
+  },
+  "bookPanditJi": "Book Pandit Ji",
+  "@bookPanditJi": {
+    "description": "Book Pandit Ji card title"
+  },
+  "connectWithSpiritualGuide": "Connect with your spiritual guide",
+  "@connectWithSpiritualGuide": {
+    "description": "Book Pandit Ji card description"
+  },
+  "spiritualDiary": "Spiritual Diary",
+  "@spiritualDiary": {
+    "description": "Spiritual Diary card title"
+  },
+  "trackSpiritualJourney": "Track your spiritual journey",
+  "@trackSpiritualJourney": {
+    "description": "Spiritual Diary card description"
+  },
+  "todaysPujaSuggestion": "Today's Puja Suggestion",
+  "@todaysPujaSuggestion": {
+    "description": "Today's Puja Suggestion card title"
+  },
+  "discoverTodaysAuspiciousPujas": "Discover today's auspicious pujas",
+  "@discoverTodaysAuspiciousPujas": {
+    "description": "Today's Puja Suggestion card description"
+  },
+  "myFamilyPandit": "My Family Pandit",
+  "@myFamilyPandit": {
+    "description": "My Family Pandit card title"
+  },
+  "viewAssignedPanditDetails": "View your assigned pandit details",
+  "@viewAssignedPanditDetails": {
+    "description": "My Family Pandit card description"
+  },
+  "forgotPassword": "Forgot Password?",
+  "@forgotPassword": {
+    "description": "Forgot password button text"
+  },
+  "resetPassword": "Reset Password",
+  "@resetPassword": {
+    "description": "Reset password dialog title"
+  },
+  "enterEmailToReset": "Enter your email to reset password",
+  "@enterEmailToReset": {
+    "description": "Instruction for password reset"
+  },
+  "sendResetLink": "Send Reset Link",
+  "@sendResetLink": {
+    "description": "Button to send reset link"
+  },
+  "passwordResetEmailSent": "Password reset code sent! Check your email.",
+  "@passwordResetEmailSent": {
+    "description": "Success message for password reset code sent"
+  },
+  "enterOtpCode": "Enter OTP Code",
+  "@enterOtpCode": {
+    "description": "OTP code field label"
+  },
+  "otpCodeHint": "6-digit code from email",
+  "@otpCodeHint": {
+    "description": "Hint for OTP code field"
+  },
+  "otpRequired": "OTP code is required",
+  "@otpRequired": {
+    "description": "OTP required validation message"
+  },
+  "otpInvalid": "OTP must be 6 digits",
+  "@otpInvalid": {
+    "description": "OTP invalid validation message"
+  },
+  "resendCode": "Resend Code",
+  "@resendCode": {
+    "description": "Resend code button text"
+  },
+  "codeResentSuccess": "Verification code resent successfully",
+  "@codeResentSuccess": {
+    "description": "Code resent success message"
+  },
+  "invalidOtpCode": "Invalid or expired OTP code",
+  "@invalidOtpCode": {
+    "description": "Invalid OTP error message"
+  },
+  "passwordResetSuccess": "Password reset successful! You can now login with your new password.",
+  "@passwordResetSuccess": {
+    "description": "Password reset success message"
+  },
+  "acharya": "Gurukul",
+  "@acharya": {
+    "description": "Acharya section heading"
+  },
+  "gururkul": "Gururkul",
+  "@gururkul": {
+    "description": "Gururkul bottom nav label"
+  },
+  "store": "Store",
+  "@store": {
+    "description": "Store bottom nav label"
+  },
+  "pujaPath": "Puja/Path",
+  "@pujaPath": {
+    "description": "Puja/Path bottom nav label"
+  },
+  "ourCourses": "Our Courses",
+  "@ourCourses": {
+    "description": "Our Courses section title"
+  },
+  "upcomingWebinars": "Upcoming Webinars",
+  "@upcomingWebinars": {
+    "description": "Upcoming Webinars section title"
+  },
+  "quizzes": "Quizzes",
+  "@quizzes": {
+    "description": "Quizzes section title"
+  },
+  "viewMore": "View More",
+  "@viewMore": {
+    "description": "View More button text"
+  },
+  "noQuizzesAvailable": "No quizzes available",
+  "@noQuizzesAvailable": {
+    "description": "No quizzes available message"
+  },
+  "mantrasTitle": "Mantras",
+  "mantrasLoading": "Loading mantras...",
+  "noInternetConnection": "No Internet Connection",
+  "retry": "Retry",
+  "sadhakProfile": "Sadhak Profile",
+  "divineMantras": "Divine Mantras",
+  "discoverFavoriteMantras": "Discover and learn your favorite mantras",
+  "searchMantrasHint": "Search mantras...",
+  "mantrasLoadFailed": "Failed to load mantras. Please check your internet connection.",
+  "noMantrasFound": "No mantras found",
+  "tryChangingSearchTerms": "Try changing your search terms",
+  "favoriteMantras": "Favorite Mantras"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "989844208954",
+    "project_id": "karmasu-36ad7",
+    "storage_bucket": "karmasu-36ad7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989844208954:android:af61d770226a93731be403",
+        "android_client_info": {
+          "package_name": "com.digital.hindugurukul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZbvE3PdECBWAJE_fi07hl0iebXUYwnYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

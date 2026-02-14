@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Flutter Web (Chrome, port 8080)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-port=8080"
+            ]
+        }
+    ]
+} // {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Flutter Web (Chrome, port 8080)",
+//             "request": "launch",
+//             "type": "dart",
+//             "program": "lib/main.dart",
+//             "args": [
+//                 "-d",
+//                 "chrome",
+//                 "--web-port=8080"
+//             ]
+//         }
+//     ]
+// }
