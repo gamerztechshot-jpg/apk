@@ -32,7 +32,7 @@ class ShareMessages {
 
   /// Single source of truth for app link used in shares.
   static const String appLink =
-      'https://play.google.com/store/apps/details?id=com.digital.hindugurukul';
+      'https://play.google.com/store/apps/details?id=com.app.mokshada';
 
   /// Returns localized share text for the given [type] and [isHindi] flag.
   static String forType(ShareMessageType type, {required bool isHindi}) {
@@ -102,4 +102,3 @@ this app is for you. 🌸
     }
   }
 }
-

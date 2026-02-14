@@ -15,7 +15,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.digital.hindugurukul"
+    namespace = "com.app.mokshada"
     // Explicitly set to Android 15 (API 35) for 16 KB page-size compliance
     compileSdk = 36
     ndkVersion = "27.0.12077973"
@@ -31,7 +31,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.digital.hindugurukul"
+        applicationId = "com.app.mokshada"
         minSdk = flutter.minSdkVersion
         // Target Android 15 (API 35) to meet Play policy
         targetSdk = 35

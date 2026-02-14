@@ -603,7 +603,8 @@ class CertificateService extends ChangeNotifier {
 
       await Share.shareXFiles(
         [XFile(file.path)],
-        text: '🏆 Check out my spiritual achievement certificate!\n\n📱 Join me on KARMASU - Digital Hindu Gurukul\n🔗 Download: https://play.google.com/store/apps/details?id=com.digital.hindugurukul',
+        text:
+            '🏆 Check out my spiritual achievement certificate!\n\n📱 Join me on KARMASU - Digital Hindu Gurukul\n🔗 Download: https://play.google.com/store/apps/details?id=com.app.mokshada',
         subject: 'My ${certificate.title} Certificate',
       );
     } catch (e) {}

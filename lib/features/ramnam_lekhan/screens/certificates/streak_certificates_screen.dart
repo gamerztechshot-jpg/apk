@@ -385,7 +385,8 @@ class _StreakCertificatesScreenState extends State<StreakCertificatesScreen> {
         await file.writeAsBytes(pdfBytes);
         await Share.shareXFiles(
           [XFile(file.path)],
-          text: '🔥 Check out my streak certificate!\n\n📿 Join me on KARMASU - Digital Hindu Gurukul\n🔗 Download: https://play.google.com/store/apps/details?id=com.digital.hindugurukul',
+          text:
+              '🔥 Check out my streak certificate!\n\n📿 Join me on KARMASU - Digital Hindu Gurukul\n🔗 Download: https://play.google.com/store/apps/details?id=com.app.mokshada',
           subject: 'My Streak Achievement Certificate',
         );
       }

@@ -46,12 +46,12 @@ class _StreakSectionState extends State<StreakSection> {
 
     final streakService = Provider.of<StreakService>(context, listen: false);
     final result = await streakService.setDailyTarget(target);
-    
+
     _targetController.clear();
-    
+
     if (mounted) {
       Navigator.of(context).pop();
-      
+
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(
@@ -59,14 +59,19 @@ class _StreakSectionState extends State<StreakSection> {
                 ? 'Daily target set to $target'
                 : (result?['message'] ?? 'Failed to set target'),
           ),
-          backgroundColor: result?['success'] == true ? Colors.green : Colors.red,
+          backgroundColor: result?['success'] == true
+              ? Colors.green
+              : Colors.red,
         ),
       );
     }
   }
 
   void _showSetTargetDialog() {
-    final languageService = Provider.of<LanguageService>(context, listen: false);
+    final languageService = Provider.of<LanguageService>(
+      context,
+      listen: false,
+    );
     final isHindi = languageService.isHindi;
     final streakService = Provider.of<StreakService>(context, listen: false);
 
@@ -75,12 +80,14 @@ class _StreakSectionState extends State<StreakSection> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: Text(isHindi ? 'दैनिक लक्ष्य निर्धारित करें' : 'Set Daily Target'),
+        title: Text(
+          isHindi ? 'दैनिक लक्ष्य निर्धारित करें' : 'Set Daily Target',
+        ),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              isHindi 
+              isHindi
                   ? 'प्रतिदिन कितने जाप करना चाहते हैं?'
                   : 'How many japa do you want to do daily?',
               style: const TextStyle(fontSize: 16),
@@ -112,17 +119,21 @@ class _StreakSectionState extends State<StreakSection> {
   }
 
   void _shareStreak() {
-    final languageService = Provider.of<LanguageService>(context, listen: false);
+    final languageService = Provider.of<LanguageService>(
+      context,
+      listen: false,
+    );
     final authService = Provider.of<AuthService>(context, listen: false);
     final streakService = Provider.of<StreakService>(context, listen: false);
     final isHindi = languageService.isHindi;
-    
+
     // Get user name
     final currentUser = authService.getCurrentUser();
-    final userName = currentUser?.userMetadata?['name'] ?? 
-                     currentUser?.email?.split('@')[0] ?? 
-                     'User';
-    
+    final userName =
+        currentUser?.userMetadata?['name'] ??
+        currentUser?.email?.split('@')[0] ??
+        'User';
+
     // Create share message
     final shareMessage = isHindi
         ? '''🔥 मेरा स्ट्रीक रिकॉर्ड!
@@ -132,7 +143,7 @@ class _StreakSectionState extends State<StreakSection> {
 📊 आज का लक्ष्य: ${streakService.todayProgress}/${streakService.currentTarget} जाप
 
 📿 KARMASU - Digital Hindu Gurukul के साथ मेरी आध्यात्मिक यात्रा में शामिल हों!
-🔗 Download: https://play.google.com/store/apps/details?id=com.digital.hindugurukul'''
+🔗 Download: https://play.google.com/store/apps/details?id=com.app.mokshada'''
         : '''🔥 My Streak Record!
 
 🏆 Current Streak: ${streakService.currentStreak} days
@@ -140,8 +151,8 @@ class _StreakSectionState extends State<StreakSection> {
 📊 Today's Progress: ${streakService.todayProgress}/${streakService.currentTarget} japas
 
 📿 Join me on KARMASU - Digital Hindu Gurukul!
-🔗 Download: https://play.google.com/store/apps/details?id=com.digital.hindugurukul''';
-    
+🔗 Download: https://play.google.com/store/apps/details?id=com.app.mokshada''';
+
     Share.share(
       shareMessage,
       subject: isHindi ? 'मेरा स्ट्रीक चैलेंज' : 'My Streak Challenge',
@@ -153,7 +164,7 @@ class _StreakSectionState extends State<StreakSection> {
     return Consumer2<StreakService, LanguageService>(
       builder: (context, streakService, languageService, child) {
         final isHindi = languageService.isHindi;
-        
+
         // Show a simple loading indicator only if it's the first load
         if (streakService.isLoading && streakService.todayProgress == 0) {
           return Container(
@@ -162,10 +173,7 @@ class _StreakSectionState extends State<StreakSection> {
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(16),
-              border: Border.all(
-                color: const Color(0xFFE9ECEF),
-                width: 1,
-              ),
+              border: Border.all(color: const Color(0xFFE9ECEF), width: 1),
             ),
             child: const Center(
               child: SizedBox(
@@ -179,20 +187,17 @@ class _StreakSectionState extends State<StreakSection> {
             ),
           );
         }
-        
+
         final progressPercentage = streakService.getProgressPercentage();
         final isTargetMet = streakService.todayAchieved;
-        
+
         return Container(
           margin: const EdgeInsets.all(16),
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.circular(16),
-            border: Border.all(
-              color: const Color(0xFFE9ECEF),
-              width: 1,
-            ),
+            border: Border.all(color: const Color(0xFFE9ECEF), width: 1),
             boxShadow: [
               BoxShadow(
                 color: const Color(0xFF2C3E50).withValues(alpha: 0.05),
@@ -242,7 +247,7 @@ class _StreakSectionState extends State<StreakSection> {
                 ],
               ),
               const SizedBox(height: 16),
-              
+
               // Streak Stats Row
               Row(
                 children: [
@@ -271,19 +276,19 @@ class _StreakSectionState extends State<StreakSection> {
                   ),
                 ],
               ),
-              
+
               const SizedBox(height: 16),
-              
+
               // Today's Progress
               Container(
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: isTargetMet 
+                  color: isTargetMet
                       ? Colors.green.withValues(alpha: 0.1)
                       : const Color(0xFFF8F9FA),
                   borderRadius: BorderRadius.circular(12),
                   border: Border.all(
-                    color: isTargetMet 
+                    color: isTargetMet
                         ? Colors.green.withValues(alpha: 0.3)
                         : const Color(0xFFE9ECEF),
                   ),
@@ -294,8 +299,12 @@ class _StreakSectionState extends State<StreakSection> {
                     Row(
                       children: [
                         Icon(
-                          isTargetMet ? Icons.check_circle_rounded : Icons.track_changes_rounded,
-                          color: isTargetMet ? Colors.green : const Color(0xFFFFB366),
+                          isTargetMet
+                              ? Icons.check_circle_rounded
+                              : Icons.track_changes_rounded,
+                          color: isTargetMet
+                              ? Colors.green
+                              : const Color(0xFFFFB366),
                           size: 20,
                         ),
                         const SizedBox(width: 8),
@@ -309,7 +318,7 @@ class _StreakSectionState extends State<StreakSection> {
                         ),
                         const Spacer(),
                         Text(
-                          isTargetMet 
+                          isTargetMet
                               ? (isHindi ? 'लक्ष्य पूरा!' : 'Target Met!')
                               : (isHindi ? 'चालू है' : 'In Progress'),
                           style: TextStyle(
@@ -362,7 +371,9 @@ class _StreakSectionState extends State<StreakSection> {
                                   widthFactor: progressPercentage,
                                   child: Container(
                                     decoration: BoxDecoration(
-                                      color: isTargetMet ? Colors.green : const Color(0xFFFFB366),
+                                      color: isTargetMet
+                                          ? Colors.green
+                                          : const Color(0xFFFFB366),
                                       borderRadius: BorderRadius.circular(4),
                                     ),
                                   ),
@@ -371,12 +382,16 @@ class _StreakSectionState extends State<StreakSection> {
                               const SizedBox(height: 4),
                               Text(
                                 isTargetMet
-                                    ? (isHindi ? '100% पूरा!' : '100% Complete!')
+                                    ? (isHindi
+                                          ? '100% पूरा!'
+                                          : '100% Complete!')
                                     : '${(progressPercentage * 100).round()}%',
                                 style: TextStyle(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w600,
-                                  color: isTargetMet ? Colors.green : const Color(0xFFFFB366),
+                                  color: isTargetMet
+                                      ? Colors.green
+                                      : const Color(0xFFFFB366),
                                 ),
                               ),
                             ],
@@ -387,7 +402,7 @@ class _StreakSectionState extends State<StreakSection> {
                     if (!isTargetMet && streakService.daysUntilTarget > 0) ...[
                       const SizedBox(height: 8),
                       Text(
-                        isHindi 
+                        isHindi
                             ? 'बचे हुए जाप: ${streakService.daysUntilTarget}'
                             : 'Remaining: ${streakService.daysUntilTarget} japas',
                         style: const TextStyle(
@@ -399,9 +414,9 @@ class _StreakSectionState extends State<StreakSection> {
                   ],
                 ),
               ),
-              
+
               const SizedBox(height: 12),
-              
+
               // Motivational Message
               Container(
                 width: double.infinity,
@@ -409,9 +424,7 @@ class _StreakSectionState extends State<StreakSection> {
                 decoration: BoxDecoration(
                   color: const Color(0xFFF8F9FA),
                   borderRadius: BorderRadius.circular(8),
-                  border: Border.all(
-                    color: const Color(0xFFE9ECEF),
-                  ),
+                  border: Border.all(color: const Color(0xFFE9ECEF)),
                 ),
                 child: Text(
                   streakService.getMotivationalMessage(),
@@ -429,7 +442,7 @@ class _StreakSectionState extends State<StreakSection> {
       },
     );
   }
-  
+
   Widget _buildStatCard(
     BuildContext context,
     String title,
@@ -443,18 +456,11 @@ class _StreakSectionState extends State<StreakSection> {
       decoration: BoxDecoration(
         color: const Color(0xFFF8F9FA),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: const Color(0xFFE9ECEF),
-          width: 1,
-        ),
+        border: Border.all(color: const Color(0xFFE9ECEF), width: 1),
       ),
       child: Column(
         children: [
-          Icon(
-            icon,
-            color: iconColor,
-            size: 24,
-          ),
+          Icon(icon, color: iconColor, size: 24),
           const SizedBox(height: 8),
           Text(
             value,
@@ -476,10 +482,7 @@ class _StreakSectionState extends State<StreakSection> {
           ),
           Text(
             unit,
-            style: const TextStyle(
-              fontSize: 10,
-              color: Color(0xFF6C757D),
-            ),
+            style: const TextStyle(fontSize: 10, color: Color(0xFF6C757D)),
           ),
         ],
       ),

@@ -320,7 +320,9 @@ class LeaderboardCertificateService extends ChangeNotifier {
                 borderRadius: pw.BorderRadius.circular(15),
               ),
               child: pw.Text(
-                isHindi ? 'लीडरबोर्ड उपलब्धि प्रमाणपत्र' : 'LEADERBOARD ACHIEVEMENT CERTIFICATE',
+                isHindi
+                    ? 'लीडरबोर्ड उपलब्धि प्रमाणपत्र'
+                    : 'LEADERBOARD ACHIEVEMENT CERTIFICATE',
                 style: pw.TextStyle(
                   fontSize: 28,
                   color: PdfColors.white,
@@ -351,7 +353,9 @@ class LeaderboardCertificateService extends ChangeNotifier {
 
             // This is to certify that
             pw.Text(
-              isHindi ? 'यह प्रमाणित किया जाता है कि' : 'This is to certify that',
+              isHindi
+                  ? 'यह प्रमाणित किया जाता है कि'
+                  : 'This is to certify that',
               style: pw.TextStyle(
                 fontSize: 18,
                 color: PdfColors.grey700,
@@ -378,7 +382,9 @@ class LeaderboardCertificateService extends ChangeNotifier {
 
             // Achievement description
             pw.Text(
-              isHindi ? 'ने सफलतापूर्वक प्राप्त किया है' : 'has successfully achieved',
+              isHindi
+                  ? 'ने सफलतापूर्वक प्राप्त किया है'
+                  : 'has successfully achieved',
               style: pw.TextStyle(
                 fontSize: 18,
                 color: PdfColors.grey700,
@@ -610,9 +616,11 @@ class LeaderboardCertificateService extends ChangeNotifier {
       await tempFile.writeAsBytes(pdfBytes);
 
       // Share the file
-      await Share.shareXFiles([
-        XFile(tempFile.path),
-      ], text: '🏅 Check out my Leaderboard Certificate!\n\n📱 Join me on KARMASU - Digital Hindu Gurukul\n🔗 Download: https://play.google.com/store/apps/details?id=com.digital.hindugurukul');
+      await Share.shareXFiles(
+        [XFile(tempFile.path)],
+        text:
+            '🏅 Check out my Leaderboard Certificate!\n\n📱 Join me on KARMASU - Digital Hindu Gurukul\n🔗 Download: https://play.google.com/store/apps/details?id=com.app.mokshada',
+      );
     } catch (e) {
       rethrow;
     }

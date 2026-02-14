@@ -8,7 +8,7 @@
 PRODUCT_NAME = karmasu
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.digital.hindugurukul
+PRODUCT_BUNDLE_IDENTIFIER = com.app.mokshada
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2025 com.digital. All rights reserved.
